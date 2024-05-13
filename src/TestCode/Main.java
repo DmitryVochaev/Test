@@ -6,18 +6,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-       String list = String.valueOf("Good news everyone!".length());
+      String str = "  Good news everyone!   ";
 
+str = str.substring(1,10);
 
+        System.out.println(str);
 
-
-
-
-
-        System.out.println(list instanceof String);
-
-
-        ;
 
            }
            }
